@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.trigger-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
